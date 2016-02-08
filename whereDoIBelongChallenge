@@ -1,0 +1,18 @@
+//Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted.
+
+function where(arr, num) {
+   
+  arr.sort(function(i, j) {
+    return i - j;
+  });
+  
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] >= num)
+      return parseInt(i);
+  }
+  
+  return arr.length;
+  
+}
+
+where([40, 60], 50);

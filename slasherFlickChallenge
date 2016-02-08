@@ -1,0 +1,11 @@
+//Return the remaining elements of an array after chopping off n elements from the head.
+
+function slasher(arr, howMany) {
+//final answer will be an array of elements from the original array.  Specifically, the elements that remain after howMany is taken from the beginning of the array. 
+  
+  arr.splice(0, howMany);
+  return arr;
+  
+}
+
+slasher([1, 2, 3], 2);
