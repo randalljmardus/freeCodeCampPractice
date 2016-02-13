@@ -1,0 +1,8 @@
+/* We can do this by adding the following to our style element:
+*/
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>

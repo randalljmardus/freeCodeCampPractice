@@ -1,0 +1,19 @@
+/* Then, let's give all elements on your page the color of green by adding
+/* color: green; to your body element's style declaration.
+
+Finally, give your body element the font-family of Monospace by adding font-
+family: Monospace; to your body element's style declaration. */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: Monospace;
+  }
+  h1 {
+    
+  }
+
+</style>
+
+<h1>Hello World</h1>
