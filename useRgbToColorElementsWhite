@@ -1,0 +1,8 @@
+/* Change the body element's background color from the RGB value for black to the rgb value for white: rgb(255, 255, 255)
+*/
+
+<style>
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+</style>

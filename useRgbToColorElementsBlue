@@ -1,0 +1,8 @@
+/* Change the body element's background color to the RGB value blue: rgb(0, 0, 255)
+*/
+
+<style>
+  body {
+    background-color: rgb(0, 0, 255);
+  }
+</style>
