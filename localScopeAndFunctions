@@ -1,0 +1,7 @@
+function myFunction() {
+  var myVar = "bar";
+  
+  
+  console.log(myVar);
+}
+myFunction();
