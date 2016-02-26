@@ -1,0 +1,19 @@
+// Example
+function ourFunction(testMe) {
+  if (testMe > 10) { 
+    return "Yes";
+  }
+  return "No";
+}
+
+// Setup
+function myFunction(testMe) {
+
+  if (testMe > 5) {
+    return "Yes";
+  }
+    return "No";
+}
+
+// Change this value to test
+myFunction(10);

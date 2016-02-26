@@ -1,0 +1,12 @@
+// Setup
+function myTest(val) {
+  
+  if (val !== 17) {
+
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+myTest(10);
