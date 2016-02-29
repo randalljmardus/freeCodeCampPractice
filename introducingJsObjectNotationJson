@@ -1,0 +1,21 @@
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1993,
+    "formats": [ 
+      "CS", 
+      "8T", 
+      "LP" ],
+    "gold": true
+  },
+  // Add record here
+  {
+    "artist": "Joe Schmoe",
+    "title": "Schmoed Alive",
+    "release_year": 1845,
+    "formats": [
+      "CS",
+      "8T" ]
+    }
+];
