@@ -1,0 +1,6 @@
+// Setup
+var testString = "There are 3 cats but 4 dogs.";
+
+var expression = /\d+/g;  // Change this line
+
+var digitCount = testString.match(expression).length;
