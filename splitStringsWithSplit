@@ -1,0 +1,4 @@
+var string = "Split me into an array";
+var array = [];
+
+array = string.split(" ");
